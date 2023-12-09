@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_writer"
+        android:icon="@drawable/ic_writer"
+        android:title="Be a writer" />
+    <item
+        android:id="@+id/menu_groups"
+        android:checkable="true"
+        android:icon="@drawable/ic_baseline_star_outline_24"
+        android:title="Gadgets" />
+
+    <item
+        android:id="@+id/menu_other"
+        android:icon="@drawable/ic_video_maker"
+        android:title="Series" />
+
+
+    <item android:title="our websites">
+        <menu>
+            <item
+                android:id="@+id/menu_open_wikipedia"
+                android:icon="@drawable/ic_wikipedia"
+                android:title="Visit DoraemonWiki" />
+
+        </menu>
+    </item>
+
+</menu>
